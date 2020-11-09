@@ -1,0 +1,8 @@
+<form>
+  {{ widget | start_tab: "fa fa-cogs", "Configs", true }}
+
+    <!-- Meta Description -->
+    {{ widget.meta_description | edit_text_field: "Meta Description" }}
+  {{ widget | end_tab: true }}
+
+</form>
